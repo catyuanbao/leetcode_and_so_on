@@ -5,7 +5,7 @@ class Solution:
         occured = {}
         for index,value in enumerate(nums):
             to_find = target - value
-            // if find answser return it else update dict
+            # if find answser return it else update dict
             if to_find in occured:
                 return [occured[to_find], index]
             else:
